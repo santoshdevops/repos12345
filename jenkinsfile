@@ -3,7 +3,7 @@ node('master') {
 	try {
 	     stage('build')
 	      {
-	      	sh "echo 'we are building'"
+	      	sh "echo 'we8 are building'"
 		}
 	     stage('test')
 	     { 
