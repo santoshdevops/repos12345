@@ -11,7 +11,7 @@ node('master') {
 		}
 	     stage('deploy')
 	     {
-	     	sh "echo 'we1 are deploying'"
+	     	sh "echo 'we11 are deploying'"
 		}
 
 		catch(error)
@@ -22,3 +22,4 @@ node('master') {
 		}
 		}
 		}
+
