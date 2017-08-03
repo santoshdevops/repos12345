@@ -3,7 +3,7 @@ node('client') {
 	try {
 	     stage('build')
 	      {
-	      	sh "date"
+	      	sh "echo 'we are building'"
 		}
 	     stage('test')
 	     { 
