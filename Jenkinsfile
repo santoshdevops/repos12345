@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy 
+#!/bin/groovy 
 node('master') {
 	try {
 	     stage('build')
