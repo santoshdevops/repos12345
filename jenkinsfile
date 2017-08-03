@@ -1,0 +1,24 @@
+#!/usr/bin/env groovy 
+node('master') {
+	try {
+	     stage('build')
+	      {
+	      	sh "date"
+		}
+	     stage('test')
+	     { 
+	     	sh "echo 'we are testing'"
+		}
+	     stage('deploy')
+	     {
+	     	sh "echo 'we are deploying'"
+		}
+
+		catch(error)
+		{
+		throw error 
+		}
+		finally {
+		}
+		}
+		}
