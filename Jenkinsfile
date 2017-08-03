@@ -13,6 +13,10 @@ node('master') {
 	     {
 	     	sh "echo 'we11 are deploying'"
 		}
+	 catch(error)
+	 {
+	 throw(error)
+	 }
 
 	finally {
 	}
