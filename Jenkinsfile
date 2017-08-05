@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build1') {
             steps {
-                echo 'Building..'
+                echo 'Building ......'
             }
         }
         stage('Test1') {
             steps {
-                echo 'Testing..'
+                echo 'Testing.....'
             }
         }
         stage('Deploy1') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying.........'
             }
         }
     }
